@@ -1,0 +1,4 @@
+cron:
+  - name: "Freenom续订"
+    cron: "15 3 * * *"
+    shell: "bash /home/runner/Freenom/FNplus.sh >/home/runner/Freenom/log.log"
